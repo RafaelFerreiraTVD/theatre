@@ -7226,6 +7226,39 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sancheztvd/theatre-monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@sancheztvd/theatre-monorepo@workspace:."
+  dependencies:
+    "@babel/core": ^7.18.9
+    "@babel/plugin-proposal-class-properties": ^7.18.6
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.18.6
+    "@babel/plugin-proposal-optional-chaining": ^7.18.9
+    "@babel/preset-env": ^7.18.9
+    "@babel/preset-react": ^7.18.6
+    "@babel/preset-typescript": ^7.18.6
+    "@microsoft/api-documenter": ^7.19.0
+    "@microsoft/api-extractor": ^7.28.6
+    "@typescript-eslint/eslint-plugin": ^5.30.7
+    "@typescript-eslint/parser": ^5.30.7
+    esbuild: ^0.14.49
+    esbuild-jest: ^0.5.0
+    eslint: ^8.20.0
+    eslint-plugin-jsx-a11y: ^6.6.1
+    eslint-plugin-react: ^7.30.1
+    eslint-plugin-tsdoc: ^0.2.16
+    eslint-plugin-unused-imports: ^2.0.0
+    husky: ^6.0.0
+    jest: ^27.1.0
+    jsonc-parser: ^3.1.0
+    lint-staged: ^13.0.3
+    node-gyp: ^9.1.0
+    prettier: ^2.3.2
+    typescript: 4.6.x
+    zx: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
 "@sinonjs/commons@npm:^1.7.0":
   version: 1.8.2
   resolution: "@sinonjs/commons@npm:1.8.2"
@@ -29592,39 +29625,6 @@ fsevents@^1.2.7:
   checksum: b6937a38c80c7f84d9c11dd75e49d5c44f71d95e810a3250bd1f1797fc7117c57698204adf676b71497acc205d769d65c16ae8fa10afad832ae1322630aef10a
   languageName: node
   linkType: hard
-
-"theatre-monorepo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "theatre-monorepo@workspace:."
-  dependencies:
-    "@babel/core": ^7.18.9
-    "@babel/plugin-proposal-class-properties": ^7.18.6
-    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.18.6
-    "@babel/plugin-proposal-optional-chaining": ^7.18.9
-    "@babel/preset-env": ^7.18.9
-    "@babel/preset-react": ^7.18.6
-    "@babel/preset-typescript": ^7.18.6
-    "@microsoft/api-documenter": ^7.19.0
-    "@microsoft/api-extractor": ^7.28.6
-    "@typescript-eslint/eslint-plugin": ^5.30.7
-    "@typescript-eslint/parser": ^5.30.7
-    esbuild: ^0.14.49
-    esbuild-jest: ^0.5.0
-    eslint: ^8.20.0
-    eslint-plugin-jsx-a11y: ^6.6.1
-    eslint-plugin-react: ^7.30.1
-    eslint-plugin-tsdoc: ^0.2.16
-    eslint-plugin-unused-imports: ^2.0.0
-    husky: ^6.0.0
-    jest: ^27.1.0
-    jsonc-parser: ^3.1.0
-    lint-staged: ^13.0.3
-    node-gyp: ^9.1.0
-    prettier: ^2.3.2
-    typescript: 4.6.x
-    zx: ^2.0.0
-  languageName: unknown
-  linkType: soft
 
 "theatre@workspace:theatre":
   version: 0.0.0-use.local
